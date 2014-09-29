@@ -21,7 +21,8 @@ It is a sample application to interface with Lithium Community Standard Cookie S
   * just to reload what we set in previous step
   
 # Upgrade Grails (only IF you download the latest grails)
-1. from command, run 
+1. from command,
+  * cd <path> 
   * grails upgrade
   
 # Configuration (Customer Profile Settings)
@@ -40,8 +41,9 @@ It is a sample application to interface with Lithium Community Standard Cookie S
     - this is the URL after user verified the registration.
 3. save the file
 
-# Configuration (temprary)
+# Configuration (temporary)
 > this is for passing a referer to the registration link, if user didn't click ->register from community directly, but use ->login->register
+
 1. cd <path>/grails-app/view/login/
 2. vi +$ auth.gsp
   * look for http://apac.sage.lithium.com, update to your community url
